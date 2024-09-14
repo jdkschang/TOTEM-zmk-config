@@ -81,8 +81,8 @@
 
                  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                  &ht LGUI A &ht LCTRL S  &ht LALT D  &ht LSHFT F &kp G           &kp H       &ht RSHFT J &ht LALT K  &ht RCTRL L &ht RGUI SEMI
-    &mt LCTRL ESC &kp Z      &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp QUOTE
-                                         &kp TAB     &kp BSPC    &lt 1 SPC       &lt 2 RET   &kp QUOTE   &kp GRAVE
+    &mt LCTRL ESC &kp Z      &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp SQT
+                                         &kp TAB     &kp BSPC    &lt 1 SPC       &lt 2 RET   &kp SQT     &kp GRAVE
 
             >;
         };
