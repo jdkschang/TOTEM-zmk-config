@@ -77,16 +77,16 @@
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     A     ┃     S     ┃     D     ┃     F     ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃     ;     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃ LCTRL ESC ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃     '     ┃
+// ┃ LCTRL ESC ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃   SHFT `  ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃ LALT BSPC ┃ LSHFT TAB ┃  LEF SPC  ┃   ┃ RIG ENTER ┃   BSPC    ┃     `     ┃
+//                                     ┃ LSHFT TAB ┃   BSPC    ┃  LEF SPC  ┃   ┃ RIG ENTER ┃   GUI '   ┃  ALT TAB  ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                  &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 HRML(A,          S,          D,          F)      &kp G           &kp H      HRMR(J,          K,          L,          SEMI)
-    &mt LCTRL ESC &kp Z      &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp SQT
-                                       &mt LALT BSPC &mt LSHFT TAB &lt LEF SPC   &lt RIG RET &kp BSPC    &kp GRAVE
+    &mt LCTRL ESC &kp Z      &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &mt RSHFT GRAVE
+                                       &mt LSHFT TAB &kp BSPC    &lt LEF SPC     &lt RIG RET &mt RGUI SQT    &mt RALT TAB
 
             >;
         };
@@ -123,17 +123,17 @@
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     +     ┃           ┃   VOL-    ┃   VOL+    ┃   MUTE    ┃   ┃   PAUSE   ┃ NEXT SONG ┃ PREV SONG ┃           ┃     |     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     =     ┃     [     ┃     {     ┃     (     ┃           ┃   ┃   LEFT    ┃   DOWN    ┃    UP     ┃   RIGHT   ┃     =     ┃
+//             ┃     =     ┃     [     ┃     {     ┃     (     ┃           ┃   ┃   LEFT    ┃   DOWN    ┃    UP     ┃   RIGHT   ┃     :     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃    ESC    ┃     -     ┃     ]     ┃     }     ┃     )     ┃           ┃   ┃     [     ┃     ]     ┃     {     ┃     }     ┃     :     ┃     _     ┃
+// ┃    ESC    ┃     -     ┃     ]     ┃     }     ┃     )     ┃           ┃   ┃     [     ┃     ]     ┃     {     ┃     }     ┃     =     ┃     _     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃   BSPC    ┃  LEF SPC  ┃ LSHFT TAB ┃   ┃ RIG ENTER ┃     '     ┃     `     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp PLUS     &trans   &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE      &kp C_PP    &kp C_NEXT  &kp C_PREV  &trans      &kp PIPE
-                &kp EQUAL   &kp LBKT    &kp LBRC    &kp LPAR     &trans         &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp EQUAL
-        &trans  &kp MINUS   &kp RBKT    &kp RBRC    &kp RPAR     &trans         &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC    &kp COLON    &kp UNDER
+                &kp EQUAL   &kp LBKT    &kp LBRC    &kp LPAR     &trans         &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp COLON
+        &trans  &kp MINUS   &kp RBKT    &kp RBRC    &kp RPAR     &trans         &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC    &kp EQUAL    &kp UNDER
                                         &trans      &trans       &trans         &trans      &trans      &trans
 
             >;
