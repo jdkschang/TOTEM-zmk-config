@@ -199,7 +199,7 @@
 
                 &trans       &trans     &kp VOL_DN  &kp VOL_UP  &kp MUTE        &trans      &kp F7      &kp F8      &kp F9      &kp F12
                 &bt B0       &bt B1     &bt B2      &bt B3      &bootloader     &bootloader &kp F4      &kp F5      &kp F6      &kp F11
-    &sys_reset  &bt BT_CLR   &trans     &trans      &trans      &trans          &trans      &kp f1      &kp f2      &kp f3      &kp f10      &sys_reset
+    &sys_reset  &bt BT_CLR   &trans     &trans      &trans      &trans          &trans      &kp F1      &kp F2      &kp F3      &kp F10      &sys_reset
                                         &trans      &trans      &trans          &trans      &trans      &trans
 
             >;
