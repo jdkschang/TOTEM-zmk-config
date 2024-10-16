@@ -103,7 +103,7 @@
         COMBO(right_brace, &kp RBRC, 6 16, BAS LEF RIG)
 
         // Convenience
-        COMBO(esc, &kp ESC, 16 17, BAS)     // jk
+        COMBO(enter, &kp ENTER, 16 17 18, BAS LEF RIG)     // jkl
     };
 
     keymap {
