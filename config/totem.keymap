@@ -102,6 +102,10 @@
 
         // Convenience
         COMBO(enter, &kp ENTER, 16 17 18, BAS LEF RIG)     // jkl
+
+        // +/-
+        COMBO(minus, &kp MINUS, 10 20, BAS LEF RIG)        // left wing
+        COMBO(plus, &kp PLUS, 19 31, BAS LEF RIG)          // right wing
     };
 
     keymap {
