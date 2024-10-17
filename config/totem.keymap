@@ -37,8 +37,6 @@
 #define VOL_UP    C_VOL_UP
 #define MUTE      C_MUTE
 
-#define SSHOT     LG(LS(N4))
-
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
@@ -173,7 +171,7 @@
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp PLUS    &trans      &trans      &trans       &trans         &kp SSHOT   &trans      &trans      &trans      &kp PIPE
+                &kp PLUS    &trans      &trans      &trans       &trans         &trans      &trans      &trans      &trans      &kp PIPE
                 &kp EQUAL   &kp LBKT    &kp LBRC    &kp LPAR     &trans         &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp COLON
     &trans      &kp MINUS   &kp RBKT    &kp RBRC    &kp RPAR     &trans         &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC    &kp EQUAL    &kp UNDER
                                         &trans      &trans       &trans         &trans      &trans      &trans
